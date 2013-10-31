@@ -1,7 +1,7 @@
-task :default => :piedrapapeltijera
+task :default => :rps
 
 desc "Ejecutar rps en el servidor"
-task :piedrapapeltijera do
+task :rps do
   sh "rackup"
 end
 
